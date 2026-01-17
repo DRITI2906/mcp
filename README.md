@@ -26,7 +26,13 @@ cd mcp
 # Install dependencies (handled automatically by uv)
 uv sync
 ```
+## Screenshots
 
+
+![alt text](<ss1.jpeg>)
+
+
+![alt text](<ss2.jpeg>)
 ## Usage
 
 ### Running Standalone
@@ -54,7 +60,7 @@ Add this to your Claude Desktop configuration file:
       "command": "uv",
       "args": [
         "--directory",
-        "c:\\Users\\Jeet Gupta\\Desktop\\mcp",
+        "PATH OF THE FOLDER",
         "run",
         "sysinfo.py"
       ]
@@ -119,6 +125,4 @@ Returns comprehensive system information as a JSON object:
 - **GPUtil** - NVIDIA GPU information
 - **py-cpuinfo** - Detailed CPU information
 
-## License
 
-MIT License
